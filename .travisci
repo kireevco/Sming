@@ -1,0 +1,7 @@
+language: cpp
+branches:
+  only:
+   - travis-build
+script:
+- cd Sming
+- make
